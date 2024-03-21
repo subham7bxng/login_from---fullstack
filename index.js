@@ -3,7 +3,7 @@ const express = require("express");
 const path = require("path");
 
 const app = express();
-const port = https://subham7bxng.github.io/login_from---fullstack/;
+const port = 4000;
 
 app.use(express.static(path.join(__dirname, "public")));
 
@@ -41,12 +41,10 @@ app.post("/log", (req, res) => {
       res.status(500).json({ error: "Error inserting user" });
       return;
     }
-    res.send("Thanku your details loged in");
-    // console.log("User inserted with id: " + result.insertId);
-    // res.status(201).json({ message: "User inserted successfully" });
+    res.send("Thanku your details loged in");;
   });
 });
 
-app.listen(https://subham7bxng.github.io/login_from---fullstack/, () => {
+app.listen(4000, () => {
   console.log("The server is running on port: " + port);
 });
