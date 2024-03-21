@@ -1,0 +1,17 @@
+.form{
+    display: block;
+    margin: 15% auto ;
+    background-color: #c2b3b3;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+ul{
+    text-align: center;
+    margin: 50px;
+    padding: 40px 0 0 0;
+}
+li{
+    margin: 5px;
+    list-style: none;
+}
