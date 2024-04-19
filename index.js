@@ -12,10 +12,10 @@ app.get("/", (req, res) => {
 });
 
 const connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "Golu1234",
-  database: "login_from",
+  host: "",
+  user: "",
+  password: "",
+  database: "",
 });
 
 connection.connect((err) => {
